@@ -39,7 +39,7 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 523879b... add CardImage
 System:ost b$ git checkout -b java/3/lesson/13
 Switched to a new branch 'java/3/lesson/13'
-Brians-MacBook-Air:ost b$ 
+System:ost b$ 
 
 ```
 
