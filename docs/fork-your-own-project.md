@@ -7,7 +7,7 @@
 * Create a new project on GitHub called 'whatever’
 * Clone the existing project using the name 'whatever'
 ```
-git clone git@github.com:YOURNAME/foo.git whatever
+git clone git@github.com:YOURNAME/existing-project-name.git whatever
 ```
 ```
 Initialized empty Git repository in /git/whatever/.git/
