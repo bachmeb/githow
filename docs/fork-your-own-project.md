@@ -10,12 +10,12 @@
 git clone git@github.com:YOURNAME/existing-project-name.git whatever
 ```
 ```
-Initialized empty Git repository in /git/whatever/.git/
-remote: Counting objects: 3618, done.
-remote: Compressing objects: 100% (1503/1503), done.
-remote: Total 3618 (delta 2629), reused 2922 (delta 2075)
-Receiving objects: 100% (3618/3618), 7.31 MiB | 1.23 MiB/s, done.
-Resolving deltas: 100% (2629/2629), done.
+Cloning into 'project-name'...
+remote: Counting objects: 792, done.
+remote: Total 792 (delta 0), reused 0 (delta 0), pack-reused 792
+Receiving objects: 100% (792/792), 210.72 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (386/386), done.
+Checking connectivity... done.
 ```
 * Edit your Git config file
 ```
@@ -26,19 +26,19 @@ vim .git/config
 ```
 [remote "origin"]
     fetch = +refs/heads/*:refs/remotes/origin/*
-    url = git@github.com:YOURNAME/whatever.git #replace foo with whatever
+    url = git@github.com:YOURNAME/whatever.git #replace existing project name with whatever
 ```
 * Push your new repository up to GitHub:
 ```
 git push -u origin master
 ```
 ```
-Counting objects: 3618, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (949/949), done.
-Writing objects: 100% (3618/3618), 7.31 MiB | 646 KiB/s, done.
-Total 3618 (delta 2629), reused 3618 (delta 2629)
-To git@github.com:YOURNAME/whatever.git
+Counting objects: 792, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (277/277), done.
+Writing objects: 100% (792/792), 210.72 KiB | 0 bytes/s, done.
+Total 792 (delta 386), reused 792 (delta 386)
+To git@github.com:bachmeb/whatever.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 ```
