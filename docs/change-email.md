@@ -11,6 +11,16 @@
 * Add the first remote repository as origin
 * Pull the project from origin
 * Filter the branch
+```
+git filter-branch --commit-filter '
+        if [ "$GIT_AUTHOR_EMAIL" = "old@emailaddres.example" ];
+        then
+                GIT_AUTHOR_EMAIL="new.email@address.eexample";
+                git commit-tree "$@";
+        else
+                git commit-tree "$@";
+        fi' HEAD
+```
 * Add the second remote repository as newhome
 * Push the master branch to newhome
 
