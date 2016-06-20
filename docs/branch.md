@@ -1,9 +1,21 @@
-###git branch
-```
-$ git branch
-* master
+# git branch
 
+## References
+* https://backlogtool.com/git-guide/en/stepup/stepup1_3.html
+
+##### Which branch do I have checked out?
+```
+git branch
+```
+```
+* master
+```
+
+##### List branches and show both local and remote branches
+```
 $ git branch -a
+```
+```
 * master
   origin/1-2-stable
   origin/2-0-stable
@@ -12,7 +24,10 @@ $ git branch -a
   origin/3-0-unstable
   origin/HEAD
   origin/master
+```
 
+##### List remote branches
+```
 $ git branch -r
   origin/1-2-stable
   origin/2-0-stable
@@ -23,6 +38,7 @@ $ git branch -r
   origin/master
 ```
 
+##### 
 ```
 System:ost b$ git checkout origin/java/3/lesson/13
 Note: checking out 'origin/java/3/lesson/13'.
