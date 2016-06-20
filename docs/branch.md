@@ -1,7 +1,9 @@
 # git branch
 
 ## References
+* http://gitready.com/intermediate/2009/02/13/list-remote-branches.html
 * https://backlogtool.com/git-guide/en/stepup/stepup1_3.html
+* https://git-scm.com/docs/git-branch
 
 ##### Which branch do I have checked out?
 ```
@@ -38,7 +40,18 @@ $ git branch -r
   origin/master
 ```
 
-##### 
+
+
+##### Create a new branch head named [branchname] which points to the current HEAD
+```
+git branch [branchname]
+```
+
+##### Create a new branch head named [branchname] which points to the current HEAD and switch to the new branch
+```
+git checkout [newbranch]
+```
+
 ```
 System:ost b$ git checkout origin/java/3/lesson/13
 Note: checking out 'origin/java/3/lesson/13'.
@@ -56,7 +69,10 @@ HEAD is now at 523879b... add CardImage
 System:ost b$ git checkout -b java/3/lesson/13
 Switched to a new branch 'java/3/lesson/13'
 System:ost b$ 
-
 ```
 
-[reference](http://gitready.com/intermediate/2009/02/13/list-remote-branches.html)
+##### Create a branch and check it out with a single command
+```
+git checkout -b new_branch_name
+```
+
