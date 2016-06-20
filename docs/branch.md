@@ -1,9 +1,13 @@
 # git branch
 
 ## References
+* https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 * http://gitready.com/intermediate/2009/02/13/list-remote-branches.html
 * https://backlogtool.com/git-guide/en/stepup/stepup1_3.html
 * https://git-scm.com/docs/git-branch
+
+### Notes
+* When you switch branches, Git resets your working directory to look like it did the last time you committed on that branch. (https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 ##### Which branch do I have checked out?
 ```
