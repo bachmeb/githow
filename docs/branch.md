@@ -44,12 +44,12 @@ $ git branch -r
 
 ##### Create a new branch head named [branchname] which points to the current HEAD
 ```
-git branch [branchname]
+git branch new_branch_name
 ```
 
 ##### Switch to the new branch
 ```
-git checkout [newbranch]
+git checkout new_branch_name
 ```
 
 ```
