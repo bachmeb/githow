@@ -85,3 +85,8 @@ git checkout -b new_branch_name
 ```
 git remote update origin --prune
 ```
+
+##### Delete local branch
+```
+git branch -d branchname
+```
