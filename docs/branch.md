@@ -81,3 +81,7 @@ System:ost b$
 git checkout -b new_branch_name
 ```
 
+##### Update local list of remote branches
+```
+git remote update origin --prune
+```
